@@ -1,0 +1,195 @@
+Screen {
+    background: #0f1117;
+    color: #e5e7eb;
+}
+
+#root {
+    height: 100%;
+    layout: vertical;
+}
+
+#switcher {
+    width: 100%;
+    height: 1fr;
+}
+
+#setup-screen {
+    width: 100%;
+    align: center middle;
+    height: 1fr;
+}
+
+#setup-card {
+    width: 72;
+    height: auto;
+    border: round #8b5cf6;
+    background: #171a22;
+    padding: 1 2;
+}
+
+#setup-title {
+    color: #f8fafc;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#setup-subtitle {
+    color: #a5b4fc;
+    margin-bottom: 1;
+}
+
+#setup-actions {
+    height: auto;
+    margin-top: 1;
+}
+
+#game-screen {
+    width: 100%;
+    height: 1fr;
+    layout: vertical;
+}
+
+#topbar {
+    height: 3;
+    background: #171a22;
+    color: #f8fafc;
+    padding: 1 2;
+    text-style: bold;
+}
+
+TabbedContent {
+    height: 1fr;
+}
+
+Tabs {
+    background: #11151d;
+    color: #94a3b8;
+}
+
+Tabs Tab {
+    padding: 0 2;
+}
+
+Tabs Tab.-active {
+    background: #1e293b;
+    color: #f8d774;
+    text-style: bold;
+}
+
+TabPane {
+    padding: 1;
+}
+
+.row {
+    height: 1fr;
+}
+
+.stack {
+    width: 28%;
+    height: 100%;
+}
+
+.world-sidebar {
+    width: 24%;
+    height: 100%;
+}
+
+.panel {
+    border: round #374151;
+    background: #151821;
+    color: #e5e7eb;
+    padding: 0 1;
+    margin-bottom: 1;
+    overflow: auto auto;
+}
+
+#map-panel {
+    width: 1fr;
+    height: 100%;
+    border: round #3b82f6;
+    background: #0b1220;
+}
+
+#region-panel {
+    height: 30%;
+}
+
+#events-panel {
+    height: 34%;
+}
+
+#alerts-panel {
+    height: 16%;
+    border: round #ef4444;
+}
+
+#summary-panel {
+    height: 20%;
+}
+
+#player-panel,
+#hooks-panel,
+#areas-panel,
+#local-panel,
+#chronicle-panel,
+#memory-panel,
+#system-panel {
+    height: 1fr;
+}
+
+#areas-panel {
+    height: 6;
+}
+
+#area-buttons {
+    height: 6;
+}
+
+#actions-panel {
+    height: 11;
+}
+
+#area-buttons,
+#actions-panel {
+    overflow: auto auto;
+}
+
+#director-panel {
+    height: 6;
+    border: round #a855f7;
+    background: #161120;
+    color: #f8fafc;
+    padding: 0 1;
+}
+
+#console-panel {
+    height: 8;
+    border: round #22c55e;
+    background: #101713;
+    color: #e5e7eb;
+    padding: 0 1;
+    overflow: auto auto;
+}
+
+#command-bar {
+    height: 3;
+    background: #171a22;
+    padding: 0 1;
+    align: center middle;
+}
+
+#prompt {
+    width: 12;
+    color: #f8d774;
+    text-style: bold;
+}
+
+#command-input {
+    width: 1fr;
+}
+
+#footer-note {
+    height: 1;
+    color: #94a3b8;
+    padding: 0 1;
+}
